@@ -24,7 +24,8 @@ body {
 }
 
 .cabecalho {
-    padding: 3% 0 0 15%;
+    padding: 1.8% 0 1.8% 15%;
+    background-color: var(--cor-tercearia);
 }
 
 .cabecalho__menu {
@@ -33,15 +34,22 @@ body {
 }
 
 .cabecalho__menu__link {
-    color: var(--cor-tercearia);
+    padding: 4px 9px 4px 9px;
+    color: var(--cor-primaria);
     font-family: var(--fonte-secundaria);
-    font-weight: 600;
+    font-weight: 700;
     font-size: 24px;
     text-decoration: none;
 }
 
+.cabecalho__menu__link:hover {
+    padding: 3px 8px 3px 8px;
+    border: 1px solid var(--cor-primaria);
+    border-radius: 15px;
+}
+
 .apresentacao {
-    padding: 6% 15%;
+    padding: 4% 15%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -101,14 +109,15 @@ body {
 
 .apresentacao__links_link:hover {
     background-color: var(--cor-hover);
+    width: 385px
 }
 
 .rodape {
     padding: 23.64px;
-    color: var(--cor-primaria);
     background-color: var(--cor-tercearia);
-    text-align: center;
     font-family: var(--fonte-secundaria);
+    color: var(--cor-primaria);
+    text-align: center;
     font-size: 24px;
     font-weight: 400;
 }
