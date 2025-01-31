@@ -43,8 +43,8 @@ body {
 }
 
 .cabecalho__menu__link:hover {
-    padding: 3px 8px 3px 8px;
-    border: 1px solid var(--cor-primaria);
+    padding: 2px 7px 2px 7px;
+    border: 2px solid var(--cor-primaria);
     border-radius: 15px;
 }
 
